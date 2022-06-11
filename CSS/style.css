@@ -1,0 +1,134 @@
+@font-face {
+    font-family: font1;
+    src: url(Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(SansSerifFLF-Demibold.otf);
+}
+
+
+:root {
+
+    --fonte-paragrafo: font1;
+    --fonte-titulo: font2;
+    --cor-de-fundo: #F3DD03;
+    --cor-do-vídeo: #2B8FB8;
+    --camisa: white;
+    --cor-boca: #D3C5A8;
+    --cor-fundo-2: #80BFE0;
+    --cor-fundo-3: #3E4947;
+}
+
+body {
+
+    text-align: center;
+    background-color: var(--cor-de-fundo);
+    
+
+}
+
+
+
+
+
+.VID {
+
+    text-align: center;
+    padding: 50px;
+    background-color: var(--camisa);
+    
+
+}
+
+.ancoras {
+
+    margin-top: 80px;
+    
+
+}
+a {
+
+    text-decoration: none;
+    font-size: 25px;
+    font-family: var(--fonte-titulo);
+    margin: 25px;
+    background-color: var(--camisa);
+    color: black;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    
+
+}
+
+h2 {
+
+    font-family: var(--fonte-paragrafo);
+    font-size: 20px;
+    margin: 14px;
+    
+}
+
+.imgfamilia {
+
+    background-color: var(--cor-fundo-2);
+    font-family: var(--fonte-paragrafo);
+    
+
+}
+
+.title {
+
+    font-family: var(--fonte-titulo);
+
+
+}
+
+.text {
+
+    font-family: var(--fonte-paragrafo);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+    
+
+}
+
+.agradecimento {
+
+    background-color: var(--cor-fundo-3);
+    
+}
+
+
+
+
+.thankyou {
+
+    margin-top: 40px;
+
+}
+
+.finalthank {
+
+    font-family: var(--fonte-paragrafo);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+iframe {box-shadow: 0 0 7px black;} 
+
+
+
+h3 {
+
+    font-family: var(--fonte-titulo);
+    font-size: 30px;
+
+}
